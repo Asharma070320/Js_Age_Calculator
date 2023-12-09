@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="card">
+        <img
+          src="https://img.freepik.com/premium-vector/man-character-thinking_155707-268.jpg?size=626&ext=jpg&ga=GA1.1.906991740.1700152841&semt=sph"
+          alt="Confussion Image"
+          id="img" 
+        />
+
+        <div class="cal">
+          <h2 class="tit">Age Calculator</h2>
+
+          <label for="">Date Of Birth</label>
+          <input type="date" name="" class="dateOfBirth" />
+
+          <br />
+          <br />
+
+          <label for="">Today's Date </label>
+          <input type="date" name="" class="curDateOfBirth"/>
+
+          <br />
+          <br />
+          <button class="calculate" onclick="calculateAge()">Calculate</button>
+
+          <div class="result"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <label for="birthdate">Select your birthdate:</label>
+    <input type="date" id="birthdate" />
+
+    <br />
+
+    <button onclick="calculateAge()">Calculate Age</button>
+
+    <div id="result"></div> -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
